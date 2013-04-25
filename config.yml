@@ -1,0 +1,33 @@
+---
+:certificate:
+  :password: cspass
+  :private: ./certs/ucMercedUCPathClient.key
+  :public: ./certs/ucMercedUCPathClient.pub
+  :trusted:
+  - ./certs/ucMercedUCPathService.pub
+:wsdl:
+  :path: /UCPath-WS/IDMServices/IDMServices?wsdl
+  :domain: localhost
+  :port: 8443
+
+# props = {certificate: {
+#   password: "some-password", 
+#   private: "./certs/client.key",
+#   public: "./certs/client.pub",
+#   trusted: ["./certs/server.pub"]},
+# wsdl:{
+#   path: "/HelloWorld/Greeting?wsdl", 
+#   domain: "localhost", 
+#   port: 8443
+#   }
+# }
+# 
+# == save properties to file
+# require 'yaml'
+# File.open("config.yml", "w"){|f|
+# f.write YAML::dump(props)
+# }
+#
+# == load properties from file
+# require 'yaml'
+# config = YAML::load(IO.read("config.yml"))
