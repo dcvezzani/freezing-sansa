@@ -1,0 +1,51 @@
+GIT
+  remote: git://github.com/dcvezzani/httpi.git
+  revision: 7d565ec9d1b577879829d1d654865e7706a7d495
+  specs:
+    httpi (2.0.2)
+      rack
+      rubyntlm
+
+GIT
+  remote: git://github.com/dcvezzani/savon.git
+  revision: e1d7ea0bc35b7fc36e54f973fcba0f38231ab84e
+  specs:
+    savon (2.2.0)
+      akami (~> 1.2.0)
+      builder (>= 2.1.2)
+      gyoku (~> 1.0.0)
+      httpi (~> 2.0.2)
+      nokogiri (>= 1.4.0)
+      nori (~> 2.1.0)
+      wasabi (~> 3.1.0)
+
+GEM
+  specs:
+    akami (1.2.0)
+      gyoku (>= 0.4.0)
+      nokogiri (>= 1.4.0)
+    builder (3.0.4)
+    columnize (0.3.6)
+    debugger (1.5.0)
+      columnize (>= 0.3.1)
+      debugger-linecache (~> 1.2.0)
+      debugger-ruby_core_source (~> 1.2.0)
+    debugger-linecache (1.2.0)
+    debugger-ruby_core_source (1.2.0)
+    gyoku (1.0.0)
+      builder (>= 2.1.2)
+    nokogiri (1.5.9)
+    nori (2.1.0)
+    rack (1.4.5)
+    rubyntlm (0.3.1)
+    wasabi (3.1.0)
+      httpi (~> 2.0)
+      nokogiri (>= 1.4.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  debugger
+  httpi!
+  savon!
