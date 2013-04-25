@@ -2,3 +2,6 @@
 .*.sw*
 .sw*
 *.bak
+
+certs/
+config.yml
